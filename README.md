@@ -1,14 +1,41 @@
-# Default starter for Gridsome
+# Testing testing only
 
-This is the project you get when you run `gridsome create new-project`.
+### Setup
 
-### 1. Install Gridsome CLI tool if you don't have
+## If on macOS, setup node, npm, using brew
 
-`npm install --global @gridsome/cli`
+```
+brew install node
+```
 
-### 2. Create a Gridsome project
+## Install Gridsome ClI tool if you don't have one yet
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+```
+NPM:npm install --global @gridsome/cli
+```
+
+## Clone this repo
+
+```
+# In the terminal, `cd` to the directory you want to clone the repo.
+git clone git@github.com:timhtheos/gridsome.git
+```
+
+## Install node modules
+
+```
+# Go to the the cloned dir
+cd gridsome
+npm install
+```
+
+### Develop
+
+```
+gridsome develop
+```
+
+### Todos
+
+1. bla bla bla
+2. xD
