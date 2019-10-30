@@ -6,5 +6,15 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [
+    {
+      use: 'gridsome-source-google-sheets',
+      options: {
+        sheetId: '14LNq3OQHzzkYXw4_okg4-gAWyKuh2e911_qOP4VeGPo', 
+        apiKey: 'AIzaSyAdNysYqX0QfOQih0hzAF-CGxe9x4JEWKA',
+        type: 'googleSheet',
+    }
+    }
+
+  ]
 }
