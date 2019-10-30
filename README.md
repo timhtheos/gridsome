@@ -11,13 +11,13 @@ brew install node
 ### Install Gridsome ClI tool if you don't have one yet
 
 ```
-NPM:npm install --global @gridsome/cli
+npm install --global @gridsome/cli
 ```
 
 ### Clone this repo
 
 ```
-# In the terminal, `cd` to the directory you want to clone the repo.
+# In the terminal, `cd` to the directory where you want to place the cloned repo.
 git clone git@github.com:timhtheos/gridsome.git
 ```
 
