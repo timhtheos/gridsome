@@ -39,6 +39,30 @@ gridsome develop
 
 Currently, I was able to query using graphql data from my google spreadsheet.
 
+## Sample data
+
+https://docs.google.com/spreadsheets/d/14LNq3OQHzzkYXw4_okg4-gAWyKuh2e911_qOP4VeGPo/edit#gid=0
+
+## Sample query
+
+```
+query MyData {
+  allGoogleSheet(sortBy: "date_unix", limit: 5, order: ASC) {
+    edges {
+      node {
+        user
+        dateUnix
+        date
+        desc
+        dr
+        cr
+        bal
+      }
+    }
+  }
+}
+```
+
 ## Todos
 
 1. bla bla bla
