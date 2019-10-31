@@ -35,6 +35,10 @@ npm install
 gridsome develop
 ```
 
+## Status
+
+Currently, I was able to query using graphql data from my google spreadsheet.
+
 ## Todos
 
 1. bla bla bla
